@@ -1,0 +1,37 @@
+{
+    "name": "chypriote/unique-names-generator",
+    "description": "A package to create readable, meaningful, random strings from animal names, colors and adjectives.",
+    "keywords": [
+        "random",
+        "name",
+        "generator",
+        "slug",
+        "animal",
+        "color",
+        "adjective"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas",
+            "email": "chypriote@lolpros.gg"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chypriote\\UniqueNames\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chypriote\\UniqueNames\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
