@@ -33,10 +33,10 @@ Subsequent calls will give you different results:
 
 ``` php
 $generator = new Generator();
-echo $generator->generate();; // --> TypicalWolf
-echo $generator->generate();; // --> QualifiedKoala
-echo $generator->generate();; // --> ConfusedCarp
-echo $generator->generate();; // --> DepressedCanid
+echo $generator->generate(); // --> TypicalWolf
+echo $generator->generate(); // --> QualifiedKoala
+echo $generator->generate(); // --> ConfusedCarp
+echo $generator->generate(); // --> DepressedCanid
 ```
 
 You can configure the list of dictionaries used:
@@ -44,29 +44,29 @@ You can configure the list of dictionaries used:
 ``` php
 $generator = new Generator();
 $generator->setDictionaries(['colors', 'animals']);
-echo $generator->generate();; // --> OrangeWolverine
-echo $generator->generate();; // --> MagentaMarten
-echo $generator->generate();; // --> RedKingfisher
-echo $generator->generate();; // --> AquaPigeon
+echo $generator->generate(); // --> OrangeWolverine
+echo $generator->generate(); // --> MagentaMarten
+echo $generator->generate(); // --> RedKingfisher
+echo $generator->generate(); // --> AquaPigeon
 ```
 
 Available dictionaries are:
- * **adjectives**: List of 1500+ adjectives
- * **animals**: List of 300+ animals
- * **colors**: List of 50+ colors
- * **countries**: List of countries
- * **names**: List of ~5000 names
- * **star wars**: List of Star Wars characters
+* **adjectives**: List of 1500+ adjectives
+* **animals**: List of 300+ animals
+* **colors**: List of 50+ colors
+* **countries**: List of countries
+* **names**: List of ~5000 names
+* **star wars**: List of Star Wars characters
 
 In order to use more than 2 dictionnaries, you need to set the `length` parameter of the generator:
 
 ``` php
 $generator = new Generator();
 $generator->setDictionaries(['colors', 'adjectives', 'animals'])->setLength(3);
-echo $generator->generate();; // --> AzureLinguisticMongoose
-echo $generator->generate();; // --> TurquoiseCanadianPuffin
-echo $generator->generate();; // --> EmeraldWideFirefly
-echo $generator->generate();; // --> PinkBloodyGoldfish
+echo $generator->generate(); // --> AzureLinguisticMongoose
+echo $generator->generate(); // --> TurquoiseCanadianPuffin
+echo $generator->generate(); // --> EmeraldWideFirefly
+echo $generator->generate(); // --> PinkBloodyGoldfish
 ```
 
 You can also get even more different results by enabling the shuffle parameter. This will shuffle the dictionaries on each call of the generator:
@@ -77,10 +77,10 @@ $generator
         ->setDictionaries(['colors', 'adjectives', 'animals'])
         ->setLength(3)
         ->setShuffle(true);
-echo $generator->generate();; // --> CyanFiercePig
-echo $generator->generate();; // --> NervousAzureUnicorn
-echo $generator->generate();; // --> CoralLizardFellow
-echo $generator->generate();; // --> EducationalKingfisherJade
+echo $generator->generate(); // --> CyanFiercePig
+echo $generator->generate(); // --> NervousAzureUnicorn
+echo $generator->generate(); // --> CoralLizardFellow
+echo $generator->generate(); // --> EducationalKingfisherJade
 ```
 
 You can enter a seed in order to get predictable results for repeated calls:
@@ -89,13 +89,13 @@ You can enter a seed in order to get predictable results for repeated calls:
 $generator = new Generator();
 $generator->setSeed(1234);
 
-echo $generator->generate();; // --> GreatKangaroo
-echo $generator->generate();; // --> ParentalCentipede
+echo $generator->generate(); // --> GreatKangaroo
+echo $generator->generate(); // --> ParentalCentipede
 
 $generator = new Generator();
 $generator->setSeed(1234);
-echo $generator->generate();; // --> GreatKangaroo
-echo $generator->generate();; // --> ParentalCentipede
+echo $generator->generate(); // --> GreatKangaroo
+echo $generator->generate(); // --> ParentalCentipede
 ```
 
 Seeds can be either an `integer` or a `string`.
