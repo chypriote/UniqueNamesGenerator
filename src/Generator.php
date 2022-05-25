@@ -12,6 +12,7 @@ class Generator
     public const DICTIONARY_COUNTRIES = 'countries';
     public const DICTIONARY_NAMES = 'names';
     public const DICTIONARY_STAR_WARS = 'star-wars';
+    public const DICTIONARY_LANGUAGES = 'languages';
 
     public const AVAILABLE_DICTIONARIES = [
         self::DICTIONARY_ADJECTIVES,
@@ -20,6 +21,7 @@ class Generator
         self::DICTIONARY_COUNTRIES,
         self::DICTIONARY_NAMES,
         self::DICTIONARY_STAR_WARS,
+        self::DICTIONARY_LANGUAGES,
     ];
 
     private array $dictionaries = ['adjectives', 'animals'];

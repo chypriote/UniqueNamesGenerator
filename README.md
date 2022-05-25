@@ -51,12 +51,13 @@ echo $generator->generate(); // --> AquaPigeon
 ```
 
 Available dictionaries are:
-* **adjectives**: List of 1500+ adjectives
-* **animals**: List of 300+ animals
+* **adjectives**: List of 1500+ adjectives (default)
+* **animals**: List of 300+ animals (default)
 * **colors**: List of 50+ colors
 * **countries**: List of countries
 * **names**: List of ~5000 names
 * **star wars**: List of Star Wars characters
+* **languages**: List of 100+ languages
 
 In order to use more than 2 dictionnaries, you need to set the `length` parameter of the generator:
 
