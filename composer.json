@@ -22,9 +22,13 @@
         "php": ">=7.4",
         "ext-json": "*"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    },
     "autoload": {
         "psr-4": {
-            "Chypriote\\UniqueNames\\": "src/"
+            "Chypriote\\UniqueNames\\": "src/",
+            "Chypriote\\UniqueNames\\Tests": "tests/"
         }
     },
     "autoload-dev": {
