@@ -1,5 +1,6 @@
 # Unique Names Generator
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/chypriote/unique-names-generator.svg?style=flat-square)](https://packagist.org/packages/chypriote/UniqueNamesGenerator)
 ![GitHub](https://img.shields.io/github/license/chypriote/UniqueNamesGenerator)
 ![Packagist Downloads](https://img.shields.io/packagist/dm/chypriote/unique-names-generator)
 
