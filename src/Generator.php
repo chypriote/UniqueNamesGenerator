@@ -85,6 +85,11 @@ class Generator
         }
     }
 
+    public function getDictionaries(): array
+    {
+        return $this->dictionaries;
+    }
+
     public function setDictionaries(array $dictionaries): self
     {
         $this->dictionaries = $dictionaries;

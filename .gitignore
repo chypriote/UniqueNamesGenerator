@@ -2,5 +2,5 @@ composer.lock
 vendor
 tests/db.sqlite
 .phpunit.result.cache
+.phpunit.cache
 .idea
-test.php
