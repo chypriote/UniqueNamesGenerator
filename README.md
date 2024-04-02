@@ -1,5 +1,6 @@
 # Unique Names Generator
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/chypriote/unique-names-generator.svg?style=flat-square)](https://packagist.org/packages/chypriote/UniqueNamesGenerator)
 ![GitHub](https://img.shields.io/github/license/chypriote/UniqueNamesGenerator)
 ![Packagist Downloads](https://img.shields.io/packagist/dm/chypriote/unique-names-generator)
 
@@ -8,7 +9,7 @@ A package to create readable, meaningful, random strings from animal names, colo
 
 ## Why Unique name generator?
 
-I needed a way to generate unique and rememberable names a la giphy (i.e BlueGiantHorse) and was unable to find one in the wild. Moreover, I needed a way to obtain the same result from a specific string in certain cases.
+I needed a way to generate unique and rememberable names a la giphy (i.e. BlueGiantHorse) and was unable to find one in the wild. Moreover, I needed a way to obtain the same result from a specific string in certain cases.
 
 
 ## Installation
@@ -21,7 +22,7 @@ composer require chypriote/unique-names-generator
 
 ## Usage
 
-Instanciate a new Generator and call the generate function in order to get a random adjective + animal combo.
+Instantiate a new Generator and call the generate function in order to get a random adjective + animal combo.
 
 ``` php
 $generator = new Generator();
@@ -59,7 +60,7 @@ Available dictionaries are:
 * **star wars**: List of Star Wars characters
 * **languages**: List of 100+ languages
 
-In order to use more than 2 dictionnaries, you need to set the `length` parameter of the generator:
+In order to use more than 2 dictionaries, you need to set the `length` parameter of the generator:
 
 ``` php
 $generator = new Generator();
