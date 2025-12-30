@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Chypriote\\UniqueNames\\": "src/",
-            "Chypriote\\UniqueNames\\Tests": "tests/"
+            "Chypriote\\UniqueNames\\": "src",
+            "Chypriote\\UniqueNames\\Tests\\": "tests"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Chypriote\\UniqueNames\\Tests\\": "tests/"
+            "Chypriote\\UniqueNames\\Tests\\": "tests"
         }
     },
     "minimum-stability": "dev",
