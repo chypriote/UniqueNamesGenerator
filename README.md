@@ -103,11 +103,18 @@ echo $generator->generate(); // --> ParentalCentipede
 Seeds can be either an `integer` or a `string`.
 
 
+## Testing
+
+Run the test suite with composer:
+
+``` bash
+composer test
+```
+
 
 ## TODO-list
 
 * Possibility to add custom dictionaries
-* Unit tests
 
 
 ## FAQ

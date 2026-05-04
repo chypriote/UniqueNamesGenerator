@@ -36,6 +36,9 @@
             "Chypriote\\UniqueNames\\Tests\\": "tests"
         }
     },
+    "scripts": {
+        "test": "phpunit"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
